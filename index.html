@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website - Age Checker</title>
+</head>
+<link rel="stylesheet" href="assets/style/style.css">
+
+<body onload="loading()">
+    <header>
+        <h1>Age Checker</h1>
+    </header>
+    <section>
+        <div>
+            <p>Year of Birth:
+                <input type="number" name="txtyear" id="txtyear" min="0" max="150">
+            </p>
+            <p>Gender:
+                <input type="radio" name="radgender" id="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="radgender" id="female">
+                <label for="female">Female</label>
+            </p>
+            <p><input type="button" value="Verify" onclick=verify()></p>
+        </div>
+        <div id="result">
+            Fill in the details above to see the result
+        </div>
+        
+
+    </section>
+
+
+    <footer>
+        <p>2023 - Static Website - Age Checker - Project for study made by <i class="fa-brands fa-linkedin"></i> <a
+                href="https://www.linkedin.com/in/carlettju/"> Ju Carlett</a></p>
+
+    </footer>
+
+
+    <!-- js import -->
+    <script src="script.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/60228476dc.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
